@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <!--
 Basic XSLT to transform JHOVE XML output to a CSV file
@@ -10,6 +10,7 @@ Version 1.00
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:jhove="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:mix="http://www.loc.gov/mix/v20">
+<xsl:output method="text" />
 <xsl:template match="jhove:jhove">
 
 <xsl:text>path,size,format,version,module,status,imageWidth,imageHeight,byteOrder,compressionScheme,colorSpace,samplingFrequencyUnit,xSamplingFrequency,ySamplingFrequency,bitsPerSampleValue,samplesPerPixel</xsl:text>
