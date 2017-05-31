@@ -1,13 +1,14 @@
+<?xml version="1.0"?>
+
 <!--
 Basic XSLT to transform JHOVE XML output to a CSV file
 Usage:
-xslproc jhove-xml2csv-transform.xslt jhove_output.xml > processed_jhove_output.csv
+xsltproc jhove-xml2csv-transform.xslt jhove_output.xml > processed_jhove_output.csv
 
 James Mooney, 2017
 Version 1.00
 -->
 
-<?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:jhove="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:mix="http://www.loc.gov/mix/v20">
 <xsl:template match="jhove:jhove">
 
