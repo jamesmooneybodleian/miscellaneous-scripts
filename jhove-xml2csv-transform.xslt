@@ -42,7 +42,7 @@ Version 1.00
                          <xsl:value-of select="string(' ')"/>
                      </xsl:if>
              </xsl:for-each><xsl:text>,</xsl:text>
-        <xsl:value-of select="//mix:samplesPerPixel"/>
+        <xsl:value-of select="descendant::mix:samplesPerPixel"/>
 
     <xsl:text>&#10;</xsl:text>
 
