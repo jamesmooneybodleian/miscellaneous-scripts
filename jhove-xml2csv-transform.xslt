@@ -6,7 +6,7 @@ Usage:
 xsltproc jhove-xml2csv-transform.xslt jhove_output.xml > processed_jhove_output.csv
 
 James Mooney, 2017
-Version 1.00
+Version 1.01
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:jhove="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:mix="http://www.loc.gov/mix/v20">
@@ -24,6 +24,7 @@ Version 1.00
         <xsl:value-of select="jhove:version"/><xsl:text>,</xsl:text>
         <xsl:value-of select="jhove:sigMatch/jhove:module"/><xsl:text>,</xsl:text>
         <xsl:value-of select="jhove:status"/><xsl:text>,</xsl:text>
+         <xsl:value-of select="jhove:lastModified"/><xsl:text>,</xsl:text>
         <xsl:value-of select="descendant::mix:imageWidth"/><xsl:text>,</xsl:text>
         <xsl:value-of select="descendant::mix:imageHeight"/><xsl:text>,</xsl:text>
         <xsl:value-of select="descendant::mix:byteOrder"/><xsl:text>,</xsl:text>
