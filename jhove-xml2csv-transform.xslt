@@ -24,7 +24,7 @@ Version 1.01
         <xsl:value-of select="jhove:version"/><xsl:text>,</xsl:text>
         <xsl:value-of select="jhove:sigMatch/jhove:module"/><xsl:text>,</xsl:text>
         <xsl:value-of select="jhove:status"/><xsl:text>,</xsl:text>
-         <xsl:value-of select="jhove:lastModified"/><xsl:text>,</xsl:text>
+        <xsl:value-of select="jhove:lastModified"/><xsl:text>,</xsl:text>
         <xsl:value-of select="descendant::mix:imageWidth"/><xsl:text>,</xsl:text>
         <xsl:value-of select="descendant::mix:imageHeight"/><xsl:text>,</xsl:text>
         <xsl:value-of select="descendant::mix:byteOrder"/><xsl:text>,</xsl:text>
