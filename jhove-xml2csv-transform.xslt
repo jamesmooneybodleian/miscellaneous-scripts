@@ -13,7 +13,7 @@ Version 1.01
 <xsl:output method="text" />
 <xsl:template match="jhove:jhove">
 
-<xsl:text>path,size,format,version,module,status,imageWidth,imageHeight,byteOrder,compressionScheme,colorSpace,samplingFrequencyUnit,xSamplingFrequency,ySamplingFrequency,bitsPerSampleValue,samplesPerPixel</xsl:text>
+<xsl:text>path,size,format,version,module,status,lastModified,imageWidth,imageHeight,byteOrder,compressionScheme,colorSpace,samplingFrequencyUnit,xSamplingFrequency,ySamplingFrequency,bitsPerSampleValue,samplesPerPixel</xsl:text>
 
 <xsl:text>&#10;</xsl:text>
 
